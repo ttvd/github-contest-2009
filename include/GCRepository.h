@@ -21,16 +21,16 @@
 {
     @private
     
-	NSNumber*               number_;
-	NSNumber*               parent_;
+    NSNumber*               number_;
+    NSNumber*               parent_;
 	
-	NSString*               author_;
-	NSString*               name_;
+    NSString*               author_;
+    NSString*               name_;
     
     NSString*               description_;
     NSString*               homepage_;
 	
-	NSDate*                 created_;
+    NSDate*                 created_;
     
     NSMutableDictionary*    languages_;
     NSInteger               totalLineCount_;

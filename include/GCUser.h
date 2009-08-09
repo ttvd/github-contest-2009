@@ -22,7 +22,7 @@
 {
     @private
     
-	NSNumber*               number_;
+    NSNumber*               number_;
     NSMutableSet*           following_;
     
     GCResults*              results_;
