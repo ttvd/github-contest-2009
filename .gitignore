@@ -1,2 +1,19 @@
-# Adding ignore of .DS_Store files.
+# Ignore .DS_Store mac files.
 .DS_Store
+
+# Ignore build directory.
+build
+
+# Ignore anything xcode, for now.
+*.xcodeproj
+
+# Ignore source folder, for now.
+src
+
+# Ignore data folder.
+data
+
+# Ignore executable and files required by executable.
+GithubContest
+GithubContest.dSYM
+Info.plist
