@@ -1,0 +1,64 @@
+2009-08-09 07:08:41.352 Project[24241:10b] Github Contest, Build 366 (Debug), Built on Sun Aug 09 07:08:41 -0400 2009
+2009-08-09 07:08:41.356 Project[24241:10b] Detected 8 cores, creating worker thread pool
+2009-08-09 07:08:41.357 Project[24241:10b] 
+2009-08-09 07:08:41.357 Project[24241:10b] Processing repositories in data/repos.txt
+2009-08-09 07:08:41.711 Project[24241:10b] Ignoring invalid repository entry: '14572:/ims,2008-11-01'
+2009-08-09 07:08:41.736 Project[24241:10b] Ignoring invalid repository entry: '16356:/mail2db,2009-03-20'
+2009-08-09 07:08:42.220 Project[24241:10b] Ignoring invalid repository entry: '50597:/afs,2008-11-01'
+2009-08-09 07:08:42.387 Project[24241:10b] Ignoring invalid repository entry: '61428:/pyclm,2009-03-14'
+2009-08-09 07:08:42.496 Project[24241:10b] Ignoring invalid repository entry: '68816:/startfmsclone,2009-03-16'
+2009-08-09 07:08:43.012 Project[24241:10b] Ignoring invalid repository entry: '105158:/myfit,2008-10-22'
+2009-08-09 07:08:43.228 Project[24241:10b] Ignoring invalid repository entry: '120638:/Stress-MO-Call,2009-06-22'
+2009-08-09 07:08:43.268 Project[24241:10b] Ignored total of 8 repository entries
+2009-08-09 07:08:43.269 Project[24241:10b] Calculated total of 41443 unique authors
+2009-08-09 07:08:43.269 Project[24241:10b] Loaded 120860 repositories from data/repos.txt
+2009-08-09 07:08:43.269 Project[24241:10b] 
+2009-08-09 07:08:43.269 Project[24241:10b] Processing languages in data/lang.txt
+2009-08-09 07:08:43.566 Project[24241:10b] Repository '59337' does not exist for language
+2009-08-09 07:08:43.981 Project[24241:10b] Repository '95472' does not exist for language
+2009-08-09 07:08:44.123 Project[24241:10b] Repository '80221' does not exist for language
+2009-08-09 07:08:44.319 Project[24241:10b] Repository '73599' does not exist for language
+2009-08-09 07:08:44.356 Project[24241:10b] Repository '24616' does not exist for language
+2009-08-09 07:08:44.359 Project[24241:10b] Ignored total of 5 language entries
+2009-08-09 07:08:44.360 Project[24241:10b] Encountered 40 unique languages
+2009-08-09 07:08:44.360 Project[24241:10b] Loaded 73492 repositories from data/repos.txt
+2009-08-09 07:08:44.360 Project[24241:10b] 
+2009-08-09 07:08:44.360 Project[24241:10b] Processing users in data/data.txt
+2009-08-09 07:08:44.787 Project[24241:10b] Repository '14572' does not exist for user '13016'
+2009-08-09 07:08:44.807 Project[24241:10b] Repository '16356' does not exist for user '14217'
+2009-08-09 07:08:45.281 Project[24241:10b] Repository '50597' does not exist for user '13016'
+2009-08-09 07:08:45.468 Project[24241:10b] Repository '61428' does not exist for user '14217'
+2009-08-09 07:08:45.601 Project[24241:10b] Repository '68816' does not exist for user '14217'
+2009-08-09 07:08:46.387 Project[24241:10b] Repository '105158' does not exist for user '13016'
+2009-08-09 07:08:46.786 Project[24241:10b] Repository '120638' does not exist for user '44647'
+2009-08-09 07:08:46.859 Project[24241:10b] Ignored total of 7 user/repository entries
+2009-08-09 07:08:46.859 Project[24241:10b] Loaded 440231 user/repository entries from data/repos.txt
+2009-08-09 07:08:46.859 Project[24241:10b] Encountered 56517 unique users
+2009-08-09 07:08:46.859 Project[24241:10b] 
+2009-08-09 07:08:46.860 Project[24241:10b] Processing test users in data/test.txt
+2009-08-09 07:08:46.867 Project[24241:10b] User '26734' was not found in users list
+2009-08-09 07:08:46.867 Project[24241:10b] User '29432' was not found in users list
+2009-08-09 07:08:46.870 Project[24241:10b] Ignored total of 2 test users
+2009-08-09 07:08:46.870 Project[24241:10b] Loaded 4786 test users from data/test.txt
+2009-08-09 07:08:46.870 Project[24241:10b] 
+2009-08-09 07:08:46.871 Project[24241:10b] Started computing scores in parallel
+2009-08-09 07:08:47.892 Project[24241:2503] Worker thread 5 finished allocating resources
+2009-08-09 07:08:47.892 Project[24241:1403] Worker thread 0 finished allocating resources
+2009-08-09 07:08:47.893 Project[24241:2103] Worker thread 4 finished allocating resources
+2009-08-09 07:08:47.893 Project[24241:1803] Worker thread 2 finished allocating resources
+2009-08-09 07:08:47.894 Project[24241:1c03] Worker thread 3 finished allocating resources
+2009-08-09 07:08:47.894 Project[24241:1503] Worker thread 1 finished allocating resources
+2009-08-09 07:08:47.895 Project[24241:2c03] Worker thread 7 finished allocating resources
+2009-08-09 07:08:47.895 Project[24241:2903] Worker thread 6 finished allocating resources
+2009-08-09 07:08:47.905 Project[24241:2903] Completed 0%
+2009-08-09 07:10:11.539 Project[24241:1403] Completed 10%
+2009-08-09 07:11:35.200 Project[24241:2103] Completed 20%
+2009-08-09 07:12:58.591 Project[24241:1803] Completed 30%
+2009-08-09 07:14:21.689 Project[24241:1803] Completed 40%
+2009-08-09 07:15:44.764 Project[24241:1403] Completed 50%
+2009-08-09 07:17:08.308 Project[24241:1503] Completed 60%
+2009-08-09 07:18:31.526 Project[24241:1403] Completed 70%
+2009-08-09 07:19:55.027 Project[24241:2c03] Completed 80%
+2009-08-09 07:21:18.352 Project[24241:2c03] Completed 90%
+2009-08-09 07:22:41.905 Project[24241:2c03] Completed 100%
+2009-08-09 07:22:41.925 Project[24241:10b] Finished computing scores in parallel
