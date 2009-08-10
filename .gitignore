@@ -16,4 +16,6 @@ data
 # Ignore executable and files required by executable.
 GithubContest
 GithubContest.dSYM
+GithubContestDistributed
+GithubContestDistributed.dSYM
 Info.plist
