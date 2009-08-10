@@ -23,6 +23,7 @@
     
     NSNumber*               number_;
     NSNumber*               parent_;
+    GCRepository*           parentRepository_;
 	
     NSString*               author_;
     NSString*               name_;
@@ -47,6 +48,9 @@
                             
 - (NSNumber*)               number;
 - (NSNumber*)               parent;
+
+- (GCRepository*)           parentRepository;
+- (void)                    setParentRepository: (GCRepository*) parentRepository;
                             
 - (void)                    setAuthor: (NSString*) author;
 - (NSString*)               author;
