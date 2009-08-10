@@ -28,6 +28,8 @@
     NSMutableDictionary*    repositoriesByAuthor_;
     NSMutableDictionary*    testUsers_;
     
+    NSArray*                repositoriesSortedByFollowers_;
+    
     GCDataset*              dataset_;
 }
 
@@ -38,6 +40,7 @@
 - (void)                    setTestUsers: (NSMutableDictionary*) testUsers;
 - (void)                    setDataset: (GCDataset*) dataset;
 - (void)                    setRepositoriesByAuthor: (NSMutableDictionary*) repositoriesByUsers;
+- (void)                    setRepositoriesSortedByFollowers: (NSArray*) repositoriesSortedByFollowers;
 
 
 @end

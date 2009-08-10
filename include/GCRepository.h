@@ -58,6 +58,8 @@
 - (void)                    setHomepage: (NSString*) homepage;
 - (NSString*)               homepage;
 
+- (NSSet*)                  followers;
+
 - (void)                    setLanguage: (NSString*) language
                             withNumberOfLines: (NSNumber*) count;
                             
@@ -65,5 +67,6 @@
 
 - (NSComparisonResult)      compareBasedOnNumbers: (GCRepository*) other;
 - (NSComparisonResult)      compareBasedOnParents: (GCRepository*) other;
+- (NSComparisonResult)      compareBasedOnNumberOfFollowers: (GCRepository*) other;
 
 @end

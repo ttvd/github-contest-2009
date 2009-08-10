@@ -22,6 +22,8 @@
     NSMutableDictionary*    repositories_;
     NSMutableDictionary*    repositoriesByAuthor_;
     
+    NSArray*                repositoriesSortedByFollowers_;
+    
     NSMutableSet*           languages_;
     
     NSLock*                 lockCallback_;
