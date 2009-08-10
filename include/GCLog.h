@@ -24,4 +24,5 @@
 + (void)                    log;
 + (void)                    log: (NSString*) string, ...;
 
+
 @end

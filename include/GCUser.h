@@ -28,6 +28,7 @@
     GCResults*              results_;
 }
 
+
 - (id)                      initWithNumber: (NSNumber*) number;
 
 - (NSNumber*)               number;
@@ -39,5 +40,6 @@
 - (NSMutableSet*)           following;
 
 - (GCResults*)              results;
+
 
 @end

@@ -14,6 +14,7 @@
 
 //--
 @class GCResults;
+@class GCUser;
 
 
 //--
@@ -28,7 +29,7 @@
 
 - (id)                      initWithRepositories: (NSMutableDictionary*) repositories; 
 
-- (void)                    reset;
+- (void)                    resetForUser: (GCUser*) user;
 
 - (void)                    incrementScoreFor: (NSNumber*) number
                             by: (NSInteger) value;
@@ -37,5 +38,6 @@
 
 - (void)                    storeIn: (GCResults*) results 
                             top: (NSInteger) top;
+
 
 @end

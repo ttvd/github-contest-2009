@@ -33,6 +33,7 @@
     GCDataset*              dataset_;
 }
 
+
 - (id)                      initWithNumber: (NSInteger) number
                             threadCount: (NSInteger) threadCount;
                             

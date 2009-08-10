@@ -33,14 +33,19 @@
     GCRepository*           repository_;
 }
 
+
 - (id)                      initWithRepository: (GCRepository*) repository;
 
 - (void)                    reset;
 - (void)                    incrementBy: (NSInteger) value;
 
 - (NSInteger)               value;
+- (void)                    setValue: (NSInteger) value;
+- (void)                    setInvalidValue;
+
 - (GCRepository*)           repository;
 
 - (NSComparisonResult)      compareBasedOnValues: (GCScore*) other;
+
 
 @end
