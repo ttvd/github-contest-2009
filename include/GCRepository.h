@@ -37,6 +37,8 @@
     
     NSMutableSet*           followers_;
     NSMutableSet*           keywords_;
+    
+    NSMutableSet*           forks_;
 }
 
 - (id)                      initWithNumber: (NSNumber*) number
@@ -59,6 +61,9 @@
 - (NSString*)               homepage;
 
 - (NSSet*)                  followers;
+
+- (NSSet*)                  forks;
+- (void)                    addFork: (GCRepository*) repository;
 
 - (void)                    setLanguage: (NSString*) language
                             withNumberOfLines: (NSNumber*) count;
