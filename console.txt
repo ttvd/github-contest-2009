@@ -1,4 +1,4 @@
-Github Contest, Build 619 (Release), Built on Mon Aug 10 11:24:40 -0400 2009
+Github Contest, Build 621 (Release), Built on Mon Aug 10 11:44:20 -0400 2009
 Detected 8 cores, creating worker thread pool
 
 Processing repositories in data/repos.txt
@@ -42,14 +42,14 @@ Ignored total of 2 test users
 Loaded 4786 test users from data/test.txt
 
 Started computing scores
-Worker thread 1 finished allocating resources
+Worker thread 2 finished allocating resources
+Worker thread 4 finished allocating resources
 Worker thread 5 finished allocating resources
-Worker thread 3 finished allocating resources
-Worker thread 0 finished allocating resources
+Worker thread 1 finished allocating resources
 Worker thread 7 finished allocating resources
 Worker thread 6 finished allocating resources
-Worker thread 4 finished allocating resources
-Worker thread 2 finished allocating resources
+Worker thread 0 finished allocating resources
+Worker thread 3 finished allocating resources
 Completed 0 percent
 Completed 10 percent
 Completed 20 percent
